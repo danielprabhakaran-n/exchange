@@ -1,0 +1,46 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" id="navmenu">
+  <a class="navbar-brand" href="#">Exchange</a> 
+  <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown-color" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Theme color</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown-color">
+            <a class="dropdown-item"  onclick="defaultColor()" >Defult color</a>
+            <a class="dropdown-item"  onclick="toggleColor1()" >Color 1</a>
+            <a class="dropdown-item"  onclick="toggleColor2()" >Color 2</a>
+            <a class="dropdown-item"  onclick="toggleColor3()" >Gradient 1</a>
+            <a class="dropdown-item"  onclick="toggleColor4()" >Gradient 2</a>
+          </div>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="exchange">Exchange</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Notifications</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>

@@ -1,0 +1,13 @@
+.mob-footer {
+    text-align: center;
+}
+
+
+@media (max-width:767px) {
+    .mob-footer ul {
+        padding-left : 0;
+    }
+    .mob-footer ul li {
+        display : block;
+    }
+}

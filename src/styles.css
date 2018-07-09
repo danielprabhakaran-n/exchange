@@ -1,1 +1,359 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    overflow: hidden;
+}
+section {
+    padding-top: 5rem;
+}
+
+.footer {
+    padding-top: 20px;
+}
+.footer a {
+    color: #fff;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+
+/*default*/
+.bg-dark {
+    background-color: #2d1c7d !important;
+}
+.nav-pills .nav-link.active{
+    background-color: #4648a0;
+}
+.header .head {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.market .header {
+    background: #4648a0;
+}
+
+.mybalance .header {
+    background: #4648a0;
+}
+.updates .header {
+    background: #4648a0;
+}
+.livechat .header {
+    background: #4648a0;
+}
+.sell .header {
+    background: #4648a0;
+}
+.buy .header {
+    background: #4648a0;
+}
+.asks .header {
+    background: #4648a0;
+}
+.bids .header {
+    background: #4648a0;
+}
+.myorders .header {
+    background: #4648a0;
+}
+
+.flex {
+    display: flex;
+}
+.flex-row {
+    padding: 5px 0;
+}
+.light {
+    color: #ccc;
+}
+.input {
+    padding: 6px 0px;
+    text-align: right;
+    width: 100%;
+}
+.select {
+    width: 100%;
+}
+.button {
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+.sell-input {
+    border: 2px solid #4648a0;
+}
+.sell-button {
+    background: #4648a0;
+    color: #fff;
+}
+.buy-input {
+    border: 2px solid #4648a0;
+}
+.buy-button {
+    background: #4648a0;
+    color: #fff;
+}
+footer {
+    background: #5d5cb5;
+    color: #fff;
+}
+
+/*color 1 == #d22770 */
+.color1.bg-dark {
+    background-color: #d22770 !important;
+}
+.color1 .nav-pills .nav-link.active{
+    background-color: #d22770;
+}
+.color1 .market .header {
+    background: #d22770;
+    color: #fff;
+}
+.color1 .mybalance .header {
+    background: #d22770;
+}
+.color1 .updates .header {
+    background: #d22770;
+}
+.color1 .livechat .header {
+    background: #d22770;
+}
+.color1 .sell .header {
+    background: #c31a1aab;
+}
+.color1 .buy .header {
+    background: #022f028f;
+}
+.color1 .asks .header {
+    background: #d22770;
+}
+.color1 .bids .header {
+    background: #d22770;
+}
+.color1 .myorders .header {
+    background: #d22770;
+}
+.color1 .sell-input {
+    border: 2px solid #d22770;
+}
+.color1 .sell-button {
+    background: #d22770;
+    color: #fff;
+}
+.color1 .buy-input {
+    border: 2px solid #d22770;
+}
+.color1 .buy-button {
+    background: #d22770;
+    color: #fff;
+}
+footer.color1 {
+    background: #d22771bd;
+    color: #fff;
+}
+
+/*color 2 == #0c6eb5 */
+.color2.bg-dark {
+    background-color: #0c6eb5 !important;
+}
+.color2 .nav-pills .nav-link.active{
+    background-color: #0c6eb5;
+}
+.color2 .market .header {
+    background: #0c6eb5;
+    color: #fff;
+}
+.color2 .mybalance .header {
+    background: #0c6eb5;
+}
+.color2 .updates .header {
+    background: #0c6eb5;
+}
+.color2 .livechat .header {
+    background: #0c6eb5;
+}
+.color2 .sell .header {
+    background: #0c6eb5;
+}
+.color2 .buy .header {
+    background: #0c6eb5;
+}
+.color2 .asks .header {
+    background: #0c6eb5;
+}
+.color2 .bids .header {
+    background: #0c6eb5;
+}
+.color2 .myorders .header {
+    background: #0c6eb5;
+}
+.color2 .sell-input {
+    border: 2px solid #0c6eb5;
+}
+.color2 .sell-button {
+    background: #0c6eb5;
+    color: #fff;
+}
+.color2 .buy-input {
+    border: 2px solid #0c6eb5;
+}
+.color2 .buy-button {
+    background: #0c6eb5;
+    color: #fff;
+}
+footer.color2 {
+    background: #0c6fb5cc;
+    color: #fff;
+}
+
+/*Gradient 1 */
+.color3.bg-dark {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%) !important;
+}
+.color3 .nav-pills .nav-link.active{
+    background-color: #f43b47;
+}
+.color3 .market .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+    color: #fff;
+}
+.color3 .mybalance .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .updates .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .livechat .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .sell .header {
+    background:linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .buy .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .asks .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .bids .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .myorders .header {
+    background: linear-gradient(to left, #f43b47 0%, #453a94 100%);
+}
+.color3 .sell-input {
+    border: 2px solid #0c6eb5;
+}
+.color3 .sell-button {
+    background: #f43b47;
+    color: #fff;
+}
+.color3 .buy-input {
+    border: 2px solid #0c6eb5;
+}
+.color3 .buy-button {
+    background: #f43b47;
+    color: #fff;
+}
+footer.color3 {
+    background: #473a94e6;
+    color: #fff;
+}
+
+
+/*Gradient 2 */
+.color4.bg-dark {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%) !important;
+}
+.color4 .nav-pills .nav-link.active{
+    background-color: #88d3ce;
+}
+.color4 .market .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+    color: #fff;
+}
+.color4 .mybalance .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .updates .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .livechat .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .sell .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .buy .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .asks .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .bids .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .myorders .header {
+    background: linear-gradient(to left, #88d3ce 0%, #6e45e2 100%);
+}
+.color4 .sell-input {
+    border: 2px solid #88d3ce;
+}
+.color4 .sell-button {
+    background: #88d3ce;
+    color: #fff;
+}
+.color4 .buy-input {
+    border: 2px solid #88d3ce;
+}
+.color4 .buy-button {
+    background: #88d3ce;
+    color: #fff;
+}
+footer.color4 {
+    background: #0c6fb5cc;
+    color: #fff;
+}
+
+/*SCROLLBAR CSS*/
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002e5b; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
+
+/*MEDIA QUERY*/
+@media (min-width: 1200px){
+    .container {
+        max-width: 1280px;
+    }
+}

@@ -1,0 +1,6 @@
+.dropdown-menu {
+    left : -35px;
+}
+.dropdown-item {
+    cursor: pointer;
+}

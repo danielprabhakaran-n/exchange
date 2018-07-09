@@ -7,8 +7,109 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
   <app-root></app-root>
+
+  <script type="text/javascript">
+
+    function defaultColor() {
+      var nav = document.getElementById("navmenu");
+      nav.classList.remove("color1");
+      nav.classList.remove("color2");
+      nav.classList.remove("color3");
+      nav.classList.remove("color4");
+      var main = document.getElementById("main");
+      main.classList.remove("color1");
+      main.classList.remove("color2");
+      main.classList.remove("color3");
+      main.classList.remove("color4");
+      var footer = document.getElementById("footer");
+      footer.classList.remove("color1");
+      footer.classList.remove("color2");
+      footer.classList.remove("color3");
+      footer.classList.remove("color4");
+    }
+
+    function toggleColor1() {
+      var nav = document.getElementById("navmenu");
+      nav.classList.add("color1");
+      nav.classList.remove("color2");
+      nav.classList.remove("color3");
+      nav.classList.remove("color4");
+      var main = document.getElementById("main");
+      main.classList.add("color1");
+      main.classList.remove("color2");
+      main.classList.remove("color3");
+      main.classList.remove("color4");
+      var footer = document.getElementById("footer");
+      footer.classList.add("color1");
+      footer.classList.remove("color2");
+      footer.classList.remove("color3");
+      footer.classList.remove("color4");
+    }
+
+    function toggleColor2() {
+      var nav = document.getElementById("navmenu");
+      nav.classList.remove("color1");
+      nav.classList.remove("color3");
+      nav.classList.remove("color4");
+      nav.classList.add("color2");
+      var main = document.getElementById("main");
+      main.classList.remove("color1");
+      main.classList.remove("color3");
+      main.classList.remove("color4");
+      main.classList.add("color2");
+      var footer = document.getElementById("footer");
+      footer.classList.remove("color1");
+      footer.classList.remove("color3");
+      footer.classList.remove("color4");
+      footer.classList.add("color2");
+    }
+  
+    function toggleColor3() {
+      var nav = document.getElementById("navmenu");
+      nav.classList.remove("color1");
+      nav.classList.remove("color2");
+      nav.classList.remove("color4");
+      nav.classList.add("color3");
+      var main = document.getElementById("main");
+      main.classList.remove("color1");
+      main.classList.remove("color2");
+      main.classList.remove("color4");
+      main.classList.add("color3");
+      var footer = document.getElementById("footer");
+      footer.classList.remove("color1");
+      footer.classList.remove("color2");
+      footer.classList.remove("color4");
+      footer.classList.add("color3");
+    }
+
+    function toggleColor4() {
+      var nav = document.getElementById("navmenu");
+      nav.classList.remove("color1");
+      nav.classList.remove("color2");
+      nav.classList.remove("color3");
+      nav.classList.add("color4");
+      var main = document.getElementById("main");
+      main.classList.remove("color1");
+      main.classList.remove("color2");
+      main.classList.remove("color3");
+      main.classList.add("color4");
+      var footer = document.getElementById("footer");
+      footer.classList.remove("color1");
+      footer.classList.remove("color2");
+      footer.classList.remove("color3");
+      footer.classList.add("color4");
+    }
+  </script>
 </body>
 </html>
